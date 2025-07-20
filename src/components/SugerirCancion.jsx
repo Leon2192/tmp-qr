@@ -54,7 +54,8 @@ const SuggestSong = () => {
           <Typography
             variant="h4"
             sx={{
-              fontWeight: "bold",
+             fontFamily: "'Great Vibes', cursive",
+          fontWeight: "bold",
               fontSize: { xs: "1.8rem", md: "2.2rem" },
               mb: 2,
               color: "#4a148c",
@@ -75,23 +76,28 @@ const SuggestSong = () => {
             ¡Ayudanos sugiriendo las canciones que pensás que no pueden faltar en la fiesta!
           </Typography>
 
-          <Button
-            variant="contained"
-            sx={{
-              borderRadius: 999,
-              px: 4,
-              backgroundColor: "#d1c4e9",
-              color: "#4a148c",
-              boxShadow: "none",
-              "&:hover": {
-                backgroundColor: "#fff",
-                border: "2px solid #d1c4e9",
-                color: "#4a148c",
-              },
-            }}
-          >
-            Sugerir canción
-          </Button>
+         <Button
+  component="a"
+  href="https://docs.google.com/forms/d/e/1FAIpQLSf59-LbsKfKsKMH-d9Gt7q6xfSue8wgy4ZEyzUCDb4C9w2Qcg/viewform"
+  target="_blank"
+  rel="noopener noreferrer"
+  variant="contained"
+  sx={{
+    borderRadius: 999,
+    px: 4,
+    backgroundColor: "#d1c4e9",
+    color: "#4a148c",
+    boxShadow: "none",
+    "&:hover": {
+      backgroundColor: "#fff",
+      border: "2px solid #d1c4e9",
+      color: "#4a148c",
+    },
+  }}
+>
+  Sugerir canción
+</Button>
+
         </Box>
       </Fade>
     </Box>

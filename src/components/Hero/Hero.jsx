@@ -141,7 +141,7 @@ const Hero = () => {
       </IconButton>
 
       {/* Audio element */}
-      <audio ref={audioRef} src="/cancion.mp3" preload="auto" />
+      <audio ref={audioRef} src="/song.mp3" preload="auto" />
 
       {/* Flecha */}
       <Box

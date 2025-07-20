@@ -39,7 +39,8 @@ const Dresscode = () => {
           <Typography
             variant="h4"
             sx={{
-              fontWeight: "bold",
+               fontFamily: "'Great Vibes', cursive",
+          fontWeight: "bold",
               fontSize: { xs: "1.8rem", md: "2.2rem" },
               mb: 1,
               color: "#2e7d32",
