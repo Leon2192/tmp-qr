@@ -159,7 +159,7 @@ const Gift = () => {
               Lista de Regalos
             </Typography>
 
-            <Typography variant="body1">Falabella Novios</Typography>
+            <Typography variant="body1">QR Novios</Typography>
           </Box>
         </Fade>
       </Modal>
